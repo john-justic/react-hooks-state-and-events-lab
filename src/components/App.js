@@ -18,7 +18,6 @@ function App() {
     <div className={appClass}>
       <header>
         <h2>Shopster</h2>
-        <button>Dark Mode</button>
         <button onClick={changeBgColor} >Dark Mode</button>
       </header>
       <ShoppingList items={itemData} />
